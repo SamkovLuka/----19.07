@@ -1,0 +1,36 @@
+@keyframes animation2{
+    from{
+        opacity: 100%;
+        background-color: grey;
+        transform:scale(0px);
+    }
+    to{
+        opacity: 0%;
+        background-color: red;
+        transform:scale(500%);
+    }
+}
+
+@keyframes animation21{
+    from{
+        background-color: grey;
+    }
+    to{
+        background-color: red;
+    }
+}
+
+.h{
+    margin: 250px;
+    animation: anim2 5s ease infinite;
+}
+.h:hover{
+    animation: animation2 5s ease infinite;
+}
+.h1{
+    margin: px;
+    animation: anim21 5s ease infinite;
+}
+.h1:hover{
+    animation: animation21 5s ease infinite;
+}

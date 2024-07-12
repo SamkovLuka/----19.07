@@ -1,0 +1,68 @@
+@keyframes animation_1{
+    from{
+        transform:translateY(0);
+        transform: rotate(0);
+    }
+    to{
+        padding-bottom: 350px;
+        transform: rotate(-45deg);
+    }
+}
+
+@keyframes animation_2{
+    from{
+        transform:translateY(0);
+        transform: rotate(0);
+    }
+    to{
+        padding-bottom: 350px;
+        transform: rotate(45deg);
+    }
+}
+
+
+
+
+h1{
+    text-align: center;
+}
+
+.calc{
+    margin-top:100px;
+    margin-left: 150px;
+}
+.calc:hover{
+    animation: animation_1 2s ease infinite;
+    margin-top: 0;
+}
+.book{
+    margin-top: 100px;
+    margin-left: 150px;
+    
+}
+.book:hover{
+    animation: animation_1 2s ease infinite;
+}
+.paper{
+    margin-top: 100px;
+    margin-left: 150px;
+    
+}
+.paper:hover{
+    animation: animation_2 2s ease infinite;
+    margin-top: 0;
+}
+.pallete{
+    margin-top: 100px;
+    margin-left: 150px;
+    
+}
+.pallete:hover{
+    animation: animation_2 2s ease infinite;
+    margin-top: 0;
+}
+.pencil{
+    margin-top: 100px;
+    margin-left: 830px;
+}
+
